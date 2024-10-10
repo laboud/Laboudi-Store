@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboudi Store </title>
+    <link rel="icon" href="laboudi.icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  
+    <header>   
+        <div class="menu_toggle">
+            <span>Laboudi Store</span>
+        </div>
+
+        <div class="logo">
+            <p><span>Laboudi </span>Store</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       <button><a href="Untitled-2.html">LOGIN</a></button>
+    </header>
+   
+     
+    <section id="home">
+        <div class="left">
+            <h1>Buy <span> from Laboudi Store </span>and be assured</h1>
+            <p>Laboudi store that sells all products.</p>
+            <a href="Untitled-1.html">GO NOW</a>
+        </div>
+        <div class="right">
+            <img src="img-I1O0aJkYlToNbatb0SNge.jpg">
+        </div>
+    </section>
+
+  
+    
+
+
+
+    </section>
+
+    
+    <section id="services">
+        <h1 class="section_title">Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Electronics</h3>
+                <p>You can purchase all types of electronics available in high quality.</p>
+                 <a href="élec.html" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Clothes and accessories</h3>
+                <p>women's clothes, men's clothes, children's clothes, baby clothes, sports clothes.</p>
+                 <a href="steam.html" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>𝐒𝗧𝐄𝐀𝐌-𝐎𝐅𝐅𝐋𝐈𝐍𝐄-𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒</h3>
+                <p>You must use these accounts as family accounts. Thank you for your understanding.</p>
+                 <a href="Untitled-1.html" class="read_more">Lire Plus</a>
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+    <section id="contact">
+        <h1 class="section_title">communication</h1>
+        <div class="localisation_contact_div">
+            <div class="localisation">
+                <h3>Our Address</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10499.966567606692!2d2.285747998068967!3d48.85836977022069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1644955637071!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="form_contact">
+                <h3>Send a message</h3>
+                <form action="#">
+                	<div class="container">
+                        <form method="post" action="https://script.google.com/macros/s/AKfycbx-0xH5E5l-6nzz8RPLiJgNYghc8lTqela0NDmWaIwmW7PjSgqxbRoWjZ7nE7w3bslYDw/exec" name="contact-form">
+                        
+                            <input type="text" name="your-name" placeholder="Name">
+                            <input type="text" name="your-number" placeholder="Number">
+                            <input type="email" name="your-email" placeholder="Email">
+                            <textarea name="message" rows="7" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Submit" id="submit">
+                        </form>
+                    </div>
+                
+                    <script src="Untitled-1.js"></script>
+            </div>
+        </div>
+     
+    </section>
+ 
+
+    
+
+    <script>
+       
+
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+        menu_toggle.onclick = function(){
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive') ;
+        }
+
+    </script>
+</body>
+</html>
