@@ -1,0 +1,145 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f01414, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+/* Main container styling */
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Header styling */
+h4 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #444;
+    position: relative;
+}
+
+h4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #e11414;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Form and input styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.4);
+    outline: none;
+    background: #fff;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background: #ea0d0d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #cf1111;
+    transform: translateY(-3px);
+}
+
+input[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+/* Additional hover effects and form input styling */
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+    opacity: 1; /* Ensures consistent appearance across browsers */
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent; /* Hide placeholder text on focus */
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    input[type="submit"] {
+        padding: 12px;
+    }
+}
+img{
+    width:30%;
+    height: 60%;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
