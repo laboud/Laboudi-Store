@@ -20,6 +20,10 @@ html {
 body {
     position: relative;
 }
+header .logo img {
+    height: 35px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -469,5 +473,6 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
