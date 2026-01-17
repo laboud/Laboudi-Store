@@ -369,7 +369,7 @@ footer {
         justify-content: center;
         flex-direction: column;
     }
-     #home .left ,   #home .right {
+     #home .left ,    {
         width: 100%;
     
      }
@@ -482,6 +482,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
