@@ -97,12 +97,11 @@ header button {
 }
 #home {
     margin-top: 50px;
-    height: calc(100vh - 50px);
+    min-height: 70vh;   
     padding: 0 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 
 
@@ -473,6 +472,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
