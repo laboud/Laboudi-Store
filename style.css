@@ -146,9 +146,11 @@ header button {
     justify-content: center;
 }
 #home .right img {
-    width:90%;     
-    max-width:500px;
+    width: 80%;
+    max-width: 400px;
+    background: transparent;
 }
+
 
 #cars {
     display: flex;
@@ -482,6 +484,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
