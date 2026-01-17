@@ -36,7 +36,7 @@ header {
     justify-content: flex-start;
     gap: 20px;
     padding: 10px 20px;
-    height: 50px;
+    margin-top: 50px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 header .logo {
@@ -501,6 +501,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
