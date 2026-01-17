@@ -97,15 +97,13 @@ header button {
     padding: 5px 25px;
 }
 #home {
-    margin-top: 50px;
+    margin-top: 50px; /* قدّ ارتفاع header */
     padding: 60px 8%;
-    min-height: auto;
-    margin: 100px 0;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 
 ::-webkit-scrollbar {
@@ -503,6 +501,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
