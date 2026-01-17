@@ -147,6 +147,7 @@ header button {
     align-items: center;
     justify-content: center;
 }
+
 #home .right img {
     width: 80%;
     max-width: 400px;
@@ -495,6 +496,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
