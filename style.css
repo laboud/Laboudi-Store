@@ -368,6 +368,85 @@ footer {
     display: none;
 }
 
+@media (max-width: 992px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .instagram-btn {
+        display: none;
+    }
+
+    header button {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 992px) {
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+    }
+
+    #home .left,
+    #home .right {
+        width: 100%;
+    }
+
+    #home .left h1 {
+        font-size: 28px;
+    }
+
+    #home .right {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    #home .left h1 {
+        font-size: 24px;
+    }
+
+    #home .left p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1200px) {
+    .images li {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .images {
+        margin: 50px auto;
+    }
+
+    .images li {
+        width: 100%;
+        height: auto;
+    }
+
+    .images li:hover {
+        transform: none;
+        margin: 15px 0;
+    }
+}
+@media (max-width: 768px) {
+    .localisation_contact_div {
+        margin: 50px 0;
+    }
+
+    .localisation iframe {
+        height: 250px;
+    }
+
+    .form_contact form input,
+    .form_contact form textarea {
+        font-size: 14px;
+    }
+}
 
 @media (max-width:682px) {
 
@@ -388,10 +467,10 @@ footer {
         justify-content: center;
         flex-direction: column;
     }
-     #home .left ,    {
-        width: 100%;
-    
-     }
+    #home .left {
+    width: 100%;
+}
+
     #home .right img {
         width: 70%;
         max-width: 280px;
@@ -501,6 +580,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
