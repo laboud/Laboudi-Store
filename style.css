@@ -96,7 +96,14 @@ header button {
     color: #fff;
     padding: 5px 25px;
 }
-
+#home {
+    margin-top: 50px;
+    min-height: 70vh;   
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 ::-webkit-scrollbar {
@@ -107,32 +114,40 @@ header button {
     background-color: #ea1f33;
 }
 
-
-#home {
-    margin-top: 50px;
-    min-height: 70vh;
-    padding: 0 8%;
+#home .left {
+    width: 40%;
+}
+#home .left h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#home .left h1 span {
+    color: #ea1f33;
+}
+#home .left p {
+    margin-bottom: 30px;
+    color: #999;
+    font-size: 13px;
+}
+#home .left a {
+    background-color: #ea1f33;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.5s;
+}
+#home .left a:hover {
+    background-color: #000;
+}
+#home .right {
+    width: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-#home .left {
-    width: 45%;
-}
-
-#home .right {
-    width: 45%;
-    display: flex;
     justify-content: center;
 }
-
 #home .right img {
-    max-width: 420px;
     width: 100%;
-    height: auto;
 }
-
 #cars {
     display: flex;
     align-items: center;
