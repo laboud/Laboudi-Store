@@ -98,8 +98,10 @@ header button {
 }
 #home {
     margin-top: 50px;
-    min-height: 70vh;   
-    padding: 0 8%;
+    padding: 60px 8%;
+    min-height: auto;
+    margin: 100px 0;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -243,7 +245,7 @@ header button {
     flex-direction: column;
 }
 .list_services {
-    margin: 100px 0;
+    margin: 40px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -251,6 +253,7 @@ header button {
     width: 100%;
 }
 .service {
+    padding: 60px 0;
     width: 25%;
     text-align: center;
     display: flex;
@@ -294,9 +297,14 @@ header button {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 12%;
+    padding: 60px 12%;
+    height: auto;
     
 }
+.section_title {
+    margin-bottom: 30px;
+}
+
 .localisation_contact_div {
     display: flex;
     align-items: center;
@@ -487,6 +495,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
