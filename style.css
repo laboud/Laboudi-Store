@@ -377,7 +377,7 @@ footer {
         width: 70%;
         max-width: 280px;
     }
-}
+
 
     #home h1 {
         margin-top: 100px;
@@ -482,6 +482,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
