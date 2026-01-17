@@ -372,6 +372,13 @@ footer {
 
 
 @media (max-width:682px) {
+
+    dotlottie-wc {
+        width: 220px !important;
+        height: 220px !important;
+    }
+
+
     header {
         padding: 0 10px;
     }
@@ -496,6 +503,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
