@@ -146,8 +146,8 @@ header button {
     justify-content: center;
 }
 #home .right img {
-    width: 80%;     
-    max-width: 400px;
+    width:90%;     
+    max-width:500px;
 }
 
 #cars {
@@ -482,6 +482,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
