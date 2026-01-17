@@ -17,6 +17,9 @@ html {
 
        
  
+header .logo img {
+    height: 35px;
+}
  
     
 body {
@@ -37,10 +40,14 @@ header {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 header .logo {
-    color: #ea1f33;
-    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
     font-weight: bold;
+    color: #0099ff;
 }
+
 header .logo span {
     color: #000;
 }
@@ -444,3 +451,4 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
