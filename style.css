@@ -459,7 +459,7 @@ footer {
     header {
         padding: 0 10px;
     }
-    header .menu {
+       header .menu {
         display: none;
     }
     #home {
@@ -556,22 +556,26 @@ footer {
         width: 28px;
         transform: rotate(-45deg);
     }
-    header .menu.responsive {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        display: flex;
-        width: 100%;
-        height: 50px;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        z-index: 2;
-        background-color: #fff;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
-    }
-   
+header .menu.responsive {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    z-index: 999;
+    border-top: 1px solid #eee;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+header .menu.responsive a {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
 
 
 }
@@ -580,6 +584,7 @@ a {
     cursor: pointer;
     padding: 5px 5px;
 }
+
 
 
 
