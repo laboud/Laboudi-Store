@@ -124,23 +124,26 @@
 
     
 
-    <script>
-       
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-        var menu_toggle = document.querySelector('.menu_toggle');
-        var menu = document.querySelector('.menu');
-        var menu_toggle_span = document.querySelector('.menu_toggle span');
+    const menu_toggle = document.querySelector('.menu_toggle');
+    const menu = document.querySelector('.menu');
+    const menu_toggle_span = document.querySelector('.menu_toggle span');
 
-        menu_toggle.onclick = function(){
-            menu_toggle.classList.toggle('active');
-            menu_toggle_span.classList.toggle('active');
-            menu.classList.toggle('responsive') ;
-        }
+    menu_toggle.addEventListener('click', () => {
+        menu_toggle.classList.toggle('active');
+        menu_toggle_span.classList.toggle('active');
+        menu.classList.toggle('responsive');
+    });
 
-    </script>
+});
+</script>
+
 </body>
 
 </html>
+
 
 
 
