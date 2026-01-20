@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<link rel="icon" href="../images/laboudi.icon.jpg">
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="../css/Untitled-2.css">
+    <meta charset="UTF-8">
+    <title>Your Project</title>
+    <link rel="icon" href="../images/laboudi.icon.jpg">
+    <link rel="stylesheet" href="../css/Untitled-2.css">
 </head>
 
 <body>
-	<div class="container">
-		<form method="post"
-			action="https://script.google.com/macros/s/AKfycbx-0xH5E5l-6nzz8RPLiJgNYghc8lTqela0NDmWaIwmW7PjSgqxbRoWjZ7nE7w3bslYDw/exec"
-			name="contact-form">
-			<h4>Your project</h4>
-			<input type="text" name="your-name" placeholder="Name">
-			<input type="text" name="your-number" placeholder="Number">
-			<input type="email" name="your-email" placeholder="Email">
-			<textarea name="message" rows="7" placeholder="Your project"></textarea>
-			<ul>
-				<li><a
-						href="https://accounts.google.com/SignOutOptions?hl=fr&continue=https://mail.google.com/mail&service=mail&ec=GBRAFw"><img
-							src="../images/f.jpg" alt=""></a></li>
-			</ul>
+    <div class="container">
+        <form method="post"
+              action="https://script.google.com/macros/s/AKfycbx-0xH5E5l-6nzz8RPLiJgNYghc8lTqela0NDmWaIwmW7PjSgqxbRoWjZ7nE7w3bslYDw/exec"
+              name="contact-form">
 
-			<input type="submit" value="Submit" id="submit">
+            <h4>Your project</h4>
 
-		</form>
-	</div>
+            <input type="text" name="your-name" placeholder="Name" required>
+            <input type="text" name="your-number" placeholder="Number" required>
+            <input type="email" name="your-email" placeholder="Email" required>
+            <textarea name="message" rows="7" placeholder="Your project"></textarea>
 
-	<script src="../Untitled-1.js"></script>
+            <!-- Social links -->
+            <ul class="social">
+                <li>
+                    <a href="https://www.instagram.com/tik.tak.time.24h/" target="_blank">
+                        <img src="../images/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Flouci payment -->
+            <a href="https://flouci.com" target="_blank" class="flouci-btn">
+                Pay with Flouci
+            </a>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="../Untitled-1.js"></script>
 </body>
-
 </html>
