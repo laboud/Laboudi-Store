@@ -143,3 +143,30 @@ img{
     margin-bottom: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.flouci-btn {
+    display: block;
+    text-align: center;
+    background: #0a7cff;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flouci-btn:hover {
+    background: #055ec4;
+}
